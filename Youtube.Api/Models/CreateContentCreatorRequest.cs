@@ -1,6 +1,6 @@
 ﻿namespace Youtube.Api.Models;
 
-public class CreatorContentCreatorRequest
+public class CreateContentCreatorRequest
 {
     public required string ChannelId { get; set; }
 }

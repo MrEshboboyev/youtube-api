@@ -57,7 +57,7 @@ contentCreatorsGroup.MapGet("/{id:guid}", async (
 
 // POST content creator
 contentCreatorsGroup.MapPost("/", async (
-    CreatorContentCreatorRequest request,
+    CreateContentCreatorRequest request,
     AppDbContext dbContext,
     IYoutubeApiService youtubeApiService,
     ILogger<Program> logger) =>
